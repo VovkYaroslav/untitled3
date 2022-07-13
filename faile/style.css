@@ -1,0 +1,44 @@
+.purple{
+    background: purple;
+}
+
+.size{
+    height: 100px;
+    width: 100px;
+
+    border-radius: 20px;
+}
+
+.ghost{
+    background: greenyellow;
+
+    height: 200px;
+    width: 450px;
+
+    position: relative;
+}
+
+.father{
+    /*background: aqua;*/
+
+    height: 110px;
+    width: 450px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    bottom: -50px;
+
+
+    position: absolute;
+}
+
+.real{
+    background: yellow;
+
+    width: 450px;
+    height: 200px;
+
+}
+
